@@ -4,14 +4,20 @@
     align-items: center;
 
 } */
-
+body{
+    background-color: rgb(69, 132, 214);
+   
+}
 .flex-container{
     display:flex;
+    font-family:Verdana, Geneva, Tahoma, sans-serif 
+    
 }
 .flex-child {
     flex: 1;
     border: 5px solid yellow;
+       
+    
 }
-.flex-child:first-child{
-    margin-right: 50px;
-}
+
+

@@ -18,10 +18,8 @@ It may be helpful to make their backgrounds different colors so you can see the 
 
 8. Embed a YouTube video of your choice into your page. 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hdI2bqOjy3c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 9. Next, build the sidebar section where previews of suggested videos show up. Obviously don't worry about generating those previews... just grab some thumbnail-sized images and plug them in. 
 
 10. Next, finish up by filling in some of the elements below the video -- the title, description and number of views. Ignore the icons (many of them are produced using sprites or more advanced techniques so you won't be able to just grab them by copying them). 11. Push your solution up to GitHub.
-Additional Resources
+
 
