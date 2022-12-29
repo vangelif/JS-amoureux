@@ -1,0 +1,17 @@
+/* #column-one {
+    padding-top: 10%; 
+    padding-bottom: 10%; 
+    align-items: center;
+
+} */
+
+.flex-container{
+    display:flex;
+}
+.flex-child {
+    flex: 1;
+    border: 5px solid yellow;
+}
+.flex-child:first-child{
+    margin-right: 50px;
+}
