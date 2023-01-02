@@ -1,10 +1,10 @@
 <!DOCTYPE html> 
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <title></title>
     <link rel="stylesheet" href="styles.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Navigation Bar -->
     <nav id="navbar">
       <header>VIDEOS ON JS & COMPUTERS</header><br> 
@@ -17,6 +17,22 @@
     </head>
 
     <body>
+      <!-- Sidebar w/ button-->
+      <input type="checkbox" id="check">
+      <label for="check">
+        <i class="fa fa-bars" id="btn"></i>
+        <i class="fa fa-times" id="cancel"></i>
+      </label>
+      <div class="sidebar">
+        <header>List Bar</header>
+        <ul>
+          <li><a href="#"><i class="fa fa-solid fa-compass"></i> INTRODUCTION</a></li>
+          <li><a href="#"><i class="fa fa-solid fa-gears"></i> WHAT IS JS?</a></li>
+          <li><a href="#"><i class="fa fa-solid fa-laptop"></i> TUTORIALS</a></li>
+          <li><a href="#"><i class="fa fa-solid fa-eye"></i> SHORTS</a></li>
+          <li><a href="#"><i class="fa fa-solid fa-desktop"></i> DOCUMENTARIES</a></li>
+        </ul>
+      </div>
         <main id="main-doc"> 
           <section class="main-section" id="introduction">
             <header><h1>INTRODUCTION</h1></header>
