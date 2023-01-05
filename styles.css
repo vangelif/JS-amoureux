@@ -1,14 +1,10 @@
-/* #column-one {
-    padding-top: 10%; 
-    padding-bottom: 10%; 
-    align-items: center;
-
-} */
 #main-doc{
     transition: all .5s;
     border: 2px solid black;
-    
+    margin-left: 0px;
+
 }
+
 body{
     background-color: rgb(69, 132, 214);
     position:relative;
@@ -28,16 +24,13 @@ body{
     text-align:center;  
     
 }
-.sidebar{
-    
-    left: -250;
+.sidebar{      
     width: 320px;
     height:100%;
-    
+    position:absolute;     
     background: #042331;
     transition: all .5s ease;
-    transform:translateX(-330px);
-    
+    transform:translateX(-330px);    
 }
 
 
@@ -114,9 +107,9 @@ label #cancel{
     pointer-events: none;
 }
 #check:checked ~.sidebar{
-transform: translateX(0px);
+transform: translateX(320px);
 }
 #check:checked ~#main-doc{
-    margin-left: 330px;
+    margin-left: 320px;
     }
     
